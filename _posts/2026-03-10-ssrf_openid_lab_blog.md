@@ -2,8 +2,8 @@
 title: "SSRF via OpenID Dynamic Client Registration – PortSwigger Lab Walkthrough"
 date: 2026-03-09
 categories: [Web Security, SSRF]
-tags: [SSRF, OAuth, PortSwigger, BurpSuite, Cloud Security]
-image: /assets/img/ssrf-openid/ssrf.png
+tags: [ssrf, oauth, portswigger, burpsuite, cloud security]
+image: assets/img/ssrf-openid/ssrf.png
 ---
 
 ## Introduction
