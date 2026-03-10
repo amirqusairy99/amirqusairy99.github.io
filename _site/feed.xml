@@ -1,0 +1,75 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://0.0.0.0:4000/</id>
+  <title>Amir Lab</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2026-03-10T05:30:42+00:00</updated>
+  <author>
+    <name>amirqusairy</name>
+    <uri>http://0.0.0.0:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://0.0.0.0:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2026 amirqusairy </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>CloudGoat Vulnerable Lambda Walkthrough</title>
+    <link href="http://0.0.0.0:4000/posts/cloudgoat/" rel="alternate" type="text/html" title="CloudGoat Vulnerable Lambda Walkthrough" />
+    <published>2026-03-10T00:00:00+00:00</published>
+  
+    <updated>2026-03-10T00:00:00+00:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/cloudgoat/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/cloudgoat/" />
+    <author>
+      <name>amirqusairy</name>
+    </author>
+
+  
+    
+    <category term="Cloud Security" />
+    
+    <category term="AWS" />
+    
+  
+
+  <summary>Description In this scenario, you start with an IAM user with limited permissions. Your task is to identify a misconfigured EC2 instance leaking credentials in its User Data, allowing you to gain SSH access. From there, you must pivot by exploiting the Instance Metadata Service (IMDS) to steal a role, enumerate Lambda functions to find hidden environment variables, and finally compromise a user...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>SSRF via OpenID Dynamic Client Registration – PortSwigger Lab Walkthrough</title>
+    <link href="http://0.0.0.0:4000/posts/ssrf_openid_lab_blog/" rel="alternate" type="text/html" title="SSRF via OpenID Dynamic Client Registration – PortSwigger Lab Walkthrough" />
+    <published>2026-03-09T00:00:00+00:00</published>
+  
+    <updated>2026-03-09T00:00:00+00:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/ssrf_openid_lab_blog/</id>
+    <content type="text/html" src="http://0.0.0.0:4000/posts/ssrf_openid_lab_blog/" />
+    <author>
+      <name>amirqusairy</name>
+    </author>
+
+  
+    
+    <category term="Web Security" />
+    
+    <category term="SSRF" />
+    
+  
+
+  <summary>Introduction  This lab demonstrates how Server-Side Request Forgery (SSRF) can occur through OpenID Dynamic Client Registration.  The OAuth server allows applications to register themselves dynamically. However, the logo_uri parameter is fetched by the server without proper validation.  This allows an attacker to force the server to make requests to internal resources, including cloud metadata ...</summary>
+
+  </entry>
+
+</feed>
+
+
