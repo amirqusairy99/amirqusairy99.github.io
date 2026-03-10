@@ -22,7 +22,7 @@ social:
 
 # Theme
 theme: jekyll-theme-chirpy
-theme_mode: ""  # leave empty to follow system preference
+theme_mode: "dark"  # leave empty to follow system preference
 
 # Avatar & images
 avatar: /assets/img/heroblack.png
