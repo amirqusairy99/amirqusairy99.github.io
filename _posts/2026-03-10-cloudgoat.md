@@ -1,7 +1,7 @@
 ---
 title: "CloudGoat Vulnerable Lambda Walkthrough"
 categories: ["Cloud Security", "AWS"]
-tags: ["cloudgoat", "aws", "labs", "ctf", "cloudsecurity"]
+tags: ["cloudgoat", "aws", "labs", "ctf"]
 ---
 
 ## Description
