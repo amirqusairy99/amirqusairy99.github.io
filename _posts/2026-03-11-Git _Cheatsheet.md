@@ -6,7 +6,7 @@ categories: [Devops, Git]
 tags: [git, github, cheatsheet]
 ---
 
-##Introduction
+## Introduction
 
 Git is a free, open-source, distributed `version control system (VCS)` designed to manage and track changes in source code and other files during software development
 
@@ -178,3 +178,4 @@ fetch and merge any commits from the tracking remote branch
 Credits: `https://education.github.com/git-cheat-sheet-education.pdf`
 
 [Download Git Cheat Sheet](/assets/img/files/git-cheat-sheet-education.pdf){: download="git-cheat-sheet-education.pdf" }
+
