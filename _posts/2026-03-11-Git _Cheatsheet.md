@@ -7,6 +7,7 @@ tags: [git, github, cheatsheet]
 ---
 
 ##Introduction
+
 Git is a free, open-source, distributed `version control system (VCS)` designed to manage and track changes in source code and other files during software development
 
 | Area | Description |
@@ -64,6 +65,7 @@ git clone <url>
 ```
 retrieve an entire repository from a hosted location via URL
 
+---
 ## Stage and Snapshot
 Working with snapshots and the Git staging area
 
@@ -99,6 +101,7 @@ save changes to the local repository
 
 ---
 ## Branch & Merge
+Isolating work in branches, changing context, and integrating changes
 ```
 git branch
 ```
@@ -173,6 +176,5 @@ git pull
 fetch and merge any commits from the tracking remote branch
 
 Credits: `https://education.github.com/git-cheat-sheet-education.pdf`
-Cheatsheet PDF: assets/img/files/git-cheat-sheet-education.pdf
 
-
+[Download Git Cheat Sheet](/assets/img/files/git-cheat-sheet-education.pdf){: download="git-cheat-sheet-education.pdf" }
