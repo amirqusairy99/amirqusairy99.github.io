@@ -30,7 +30,8 @@ C:\Windows\System32>curl https://0a49003b04c9e391804fe4df00eb0016.web-security-a
 
 ### Step 3: Go to the Collaborator tab and click Poll now. You should see a couple of network interactions in the table, including an HTTP request. This confirms that you are able to make the website's middleware issue requests to an arbitrary server.
 
-/assets/img/screenshot1.png
+![Burp Collaborator Interaction](/assets/img/screenshot1.png)
+_Proof_
 
 ### Step 4: Send the GET / request to Burp Intruder.
 
@@ -38,7 +39,8 @@ C:\Windows\System32>curl https://0a49003b04c9e391804fe4df00eb0016.web-security-a
 
 ### Step 6: Deselect Update Host header to match target.
 
-/assets/img/screenshot2.png
+![Host Header Settings](/assets/img/screenshot2.png)
+_Screenshot_
 
 ### Step 7: Delete the value of the Host header and replace it with the following IP address, adding a payload position to the final octet:
 ```
@@ -105,3 +107,4 @@ Applications must **not trust user-controlled headers** like:
 `X-Forwarded-For`
 
 These headers can be manipulated.
+
