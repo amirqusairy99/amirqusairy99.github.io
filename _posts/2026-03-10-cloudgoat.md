@@ -5,7 +5,9 @@ tags: ["cloudgoat", "aws", "labs", "ctf"]
 ---
 
 ## Description
-In this scenario, you start with an IAM user with limited permissions. Your task is to identify a misconfigured EC2 instance leaking credentials in its User Data, allowing you to gain SSH access. From there, you must pivot by exploiting the Instance Metadata Service (IMDS) to steal a role, enumerate Lambda functions to find hidden environment variables, and finally compromise a user with access to the scenario's objective: a secret stored in AWS Secrets Manager.
+In this scenario, you start with an IAM user with limited permissions. Your task is to identify a misconfigured EC2 instance leaking credentials in its User Data, allowing you to gain SSH access. From there, you must pivot by exploiting the Instance Metadata Service (IMDS) to steal a role, enumerate Lambda functions to find hidden environment variables, and finally compromise a user with access to the scenario's 
+
+## Objective: Gained access to a secret stored in AWS Secrets Manager.
 
 ---
 ## Scenario: `data_secrets`
