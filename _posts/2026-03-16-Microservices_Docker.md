@@ -75,4 +75,4 @@ This is a clean starter template for local development. Easy next upgrades:
 - add service discovery / tracing / metrics
 - add CI/CD and Kubernetes manifests
 
-[Download Microservices Starter Pack](/assets/img/microservices-webapp){: download="microservices-webapp" }
+[Download Microservices Starter Pack](/assets/img/microservices-webapp){: download="microservices-webapp.zip" }
