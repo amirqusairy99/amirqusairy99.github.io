@@ -1,5 +1,5 @@
 ---
-layout: certs
+layout: page
 title: Certifications
 icon: fas fa-stream
 order: 6
