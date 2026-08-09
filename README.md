@@ -4,7 +4,7 @@ My personal technical blog where I document what I learn, build, troubleshoot, a
 
 ## Blog
 
-![Blog Screenshot](Screenshot 2026-08-09 112032.png)
+![Blog Screenshot](screenshot.png)
 
 **Live site:** [amirqusairy99.github.io](https://amirqusairy99.github.io/)
 
