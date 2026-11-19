@@ -4,9 +4,7 @@ date: 2026-11-19 19:45:00 +0800
 categories: [Homelab, Linux]
 tags: [rhel, nginx, apache-guacamole, reverse-proxy, selinux, sysadmin]
 mermaid: true
-# image:
-#   path: /assets/img/rhel.jpg
-#   alt: Apache Guacamole and Nginx Architecture on RHEL 9.8
+image: assets/img/rhel.jpg
 ---
 
 If you have set up **Apache Guacamole** on Red Hat Enterprise Linux (RHEL) 9.8, you probably access it by typing something like `http://192.168.95.128:8080/guacamole` into your browser. While functional, remembering IP addresses and port numbers isn't ideal—and running unencrypted HTTP over your network isn't great for remote desktop sessions.
