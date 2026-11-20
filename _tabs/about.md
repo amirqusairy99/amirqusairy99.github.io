@@ -28,6 +28,6 @@ If you're building something in this space, or just want to connect, feel free t
 ### Resume Preview
 
 <!-- Resume Embed (Place your PDF in the /assets/docs/ folder) -->
-<iframe src="/assets/docs/Amir_Qusairy_Resume.pdf" width="100%" height="600px" style="border: none;">
+<iframe src="/assets/img/Resume- Mohammad Amir Qusairy.pdf" width="100%" height="600px" style="border: none;">
     This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/Resume- Mohammad Amir Qusairy.pdf">Download PDF</a>.
 </iframe>
