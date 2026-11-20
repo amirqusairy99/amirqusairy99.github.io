@@ -5,8 +5,6 @@ icon: fas fa-stream
 order: 6
 ---
 
-## My Certifications and Learning Progress
-
 <style>
   .cert-grid {
     display: grid;
