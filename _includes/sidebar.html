@@ -1,7 +1,7 @@
 <!-- The Side Bar -->
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <header class="profile-wrapper" style="text-align: center;">
+ <header class="profile-wrapper" style="width: 100%; display: flex; flex-direction: column; align-items: center; text-align: center;">
     <div style="margin-bottom: 15px; padding: 0 10px;">
       <!-- Arabic Text -->
       <div style="font-size: 1.3rem; margin-bottom: 5px; color: var(--text-color);">
@@ -13,7 +13,7 @@
       </div>
     </div>
     
-    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle" style="display: block; margin: 0 auto;">
+    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle" style="margin: 0 auto 1rem auto;">
       {%- if site.avatar != empty and site.avatar -%}
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
@@ -22,8 +22,8 @@
       {%- endif -%}
     </a>
 
-    <a class="site-title d-block" href="{{ '/' | relative_url }}" style="text-align: center;">{{ site.title }}</a>
-    <p class="site-subtitle fst-italic mb-0" style="text-align: center;">{{ site.tagline }}</p>
+    <a class="site-title d-block" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+    <p class="site-subtitle fst-italic mb-0">{{ site.tagline }}</p>
   </header>
   <!-- .profile-wrapper -->
 
