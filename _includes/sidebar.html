@@ -1,8 +1,8 @@
 <!-- The Side Bar -->
 
 <aside aria-label="Sidebar" id="sidebar" class="d-flex flex-column align-items-end">
-  <header class="profile-wrapper">
-    <div style="text-align: center; margin-bottom: 15px; padding: 0 10px;">
+  <header class="profile-wrapper" style="text-align: center;">
+    <div style="margin-bottom: 15px; padding: 0 10px;">
       <!-- Arabic Text -->
       <div style="font-size: 1.3rem; margin-bottom: 5px; color: var(--text-color);">
         بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
@@ -12,7 +12,8 @@
         In the name of Allah, the Most Gracious, the Most Merciful
       </div>
     </div>
-    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+    
+    <a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle" style="display: block; margin: 0 auto;">
       {%- if site.avatar != empty and site.avatar -%}
         {%- capture avatar_url -%}
           {% include media-url.html src=site.avatar %}
