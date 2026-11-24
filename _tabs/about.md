@@ -20,8 +20,14 @@ What really drives me, however, is the bigger picture: **designing reliable, sca
 
 If you're building something in this space, or just want to connect, feel free to reach out!
 
-📧 [amirqusairy7@gmail.com](mailto:amirqusairy7@gmail.com)  
-📄 [**Download My Resume (PDF)**](/assets/img/Resume- Mohammad Amir Qusairy.pdf)
+<div class="d-flex flex-wrap gap-2 mt-3">
+  <a href="mailto:amirqusairy7@gmail.com" class="btn btn-outline-primary btn-sm">
+    <i class="fas fa-envelope me-1"></i> Email Me
+  </a>
+  <a href="/assets/img/Resume- Mohammad Amir Qusairy.pdf" class="btn btn-primary btn-sm" download>
+    <i class="fas fa-file-pdf me-1"></i> Download Resume (PDF)
+  </a>
+</div>
 
 ---
 
