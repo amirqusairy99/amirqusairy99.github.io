@@ -1,8 +1,9 @@
 ---
 title: "Building a deliberately vulnerable HR portal for security practice"
-date: 2026-11-28 08:00:00 +0800
+date: 2026-11-28
 categories: [Project, Security]
 tags: [laravel, php, security, training, mysql]
+image: /assets/img/hr.webp
 description: A local-only HR portal with realistic Malaysian fake data and eleven documented vulnerabilities, built as a hands-on security training ground.
 pin: false
 ---
